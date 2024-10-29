@@ -1,0 +1,233 @@
+[
+    {
+        "No.": "14",
+        "Player": "Colin Castleton",
+        "Pos": "C",
+        "Ht": "6/11/01",
+        "Wt": "250",
+        "Birth Date": "5/25/00",
+        "Birth": "us US",
+        "Exp": "R",
+        "College": "Michigan, Florida"
+    },
+    {
+        "No.": "10",
+        "Player": "Max Christie",
+        "Pos": "SG",
+        "Ht": "6/6/01",
+        "Wt": "190",
+        "Birth Date": "2/10/03",
+        "Birth": "us US",
+        "Exp": "1",
+        "College": "Michigan State"
+    },
+    {
+        "No.": "3",
+        "Player": "Anthony Davis",
+        "Pos": "C",
+        "Ht": "6/10/01",
+        "Wt": "253",
+        "Birth Date": "3/11/93",
+        "Birth": "us US",
+        "Exp": "11",
+        "College": "Kentucky"
+    },
+    {
+        "No.": "26",
+        "Player": "Spencer Dinwiddie",
+        "Pos": "PG",
+        "Ht": "6/5/01",
+        "Wt": "215",
+        "Birth Date": "4/6/93",
+        "Birth": "us US",
+        "Exp": "9",
+        "College": "Colorado"
+    },
+    {
+        "No.": "17",
+        "Player": "Alex Fudge",
+        "Pos": "SF",
+        "Ht": "6/8/01",
+        "Wt": "200",
+        "Birth Date": "5/6/03",
+        "Birth": "us US",
+        "Exp": "R",
+        "College": "LSU, Florida"
+    },
+    {
+        "No.": "20",
+        "Player": "Harry Giles",
+        "Pos": "C",
+        "Ht": "6/11/01",
+        "Wt": "240",
+        "Birth Date": "4/22/98",
+        "Birth": "us US",
+        "Exp": "3",
+        "College": "Duke"
+    },
+    {
+        "No.": "28",
+        "Player": "Rui Hachimura",
+        "Pos": "PF",
+        "Ht": "6/8/01",
+        "Wt": "230",
+        "Birth Date": "2/8/98",
+        "Birth": "jp JP",
+        "Exp": "4",
+        "College": "Gonzaga"
+    },
+    {
+        "No.": "11",
+        "Player": "Jaxson Hayes",
+        "Pos": "C",
+        "Ht": "7-0",
+        "Wt": "220",
+        "Birth Date": "5/23/00",
+        "Birth": "us US",
+        "Exp": "4",
+        "College": "Texas"
+    },
+    {
+        "No.": "55",
+        "Player": "D'Moi Hodge",
+        "Pos": "SG",
+        "Ht": "6/4/01",
+        "Wt": "188",
+        "Birth Date": "12/20/98",
+        "Birth": "vg VG",
+        "Exp": "R",
+        "College": "State College of Florida, Manatee-Sarasota, Cleveland State University, Missouri"
+    },
+    {
+        "No.": "0",
+        "Player": "Jalen Hood-Schifino",
+        "Pos": "SG",
+        "Ht": "6/6/01",
+        "Wt": "215",
+        "Birth Date": "6/19/03",
+        "Birth": "us US",
+        "Exp": "R",
+        "College": "Indiana"
+    },
+    {
+        "No.": "23",
+        "Player": "LeBron James",
+        "Pos": "PF",
+        "Ht": "6/9/01",
+        "Wt": "250",
+        "Birth Date": "12/30/84",
+        "Birth": "us US",
+        "Exp": "20",
+        "College": ""
+    },
+    {
+        "No.": "21",
+        "Player": "Maxwell Lewis",
+        "Pos": "SF",
+        "Ht": "6/7/01",
+        "Wt": "195",
+        "Birth Date": "7/27/02",
+        "Birth": "us US",
+        "Exp": "R",
+        "College": "Pepperdine"
+    },
+    {
+        "No.": "4",
+        "Player": "Skylar Mays",
+        "Pos": "SG",
+        "Ht": "6/4/01",
+        "Wt": "205",
+        "Birth Date": "9/5/97",
+        "Birth": "us US",
+        "Exp": "3",
+        "College": "LSU"
+    },
+    {
+        "No.": "12",
+        "Player": "Taurean Prince",
+        "Pos": "PF",
+        "Ht": "6/6/01",
+        "Wt": "218",
+        "Birth Date": "3/22/94",
+        "Birth": "us US",
+        "Exp": "7",
+        "College": "Baylor"
+    },
+    {
+        "No.": "15",
+        "Player": "Austin Reaves",
+        "Pos": "SG",
+        "Ht": "6/5/01",
+        "Wt": "206",
+        "Birth Date": "5/29/98",
+        "Birth": "us US",
+        "Exp": "2",
+        "College": "Wichita State, Oklahoma"
+    },
+    {
+        "No.": "5",
+        "Player": "Cam Reddish",
+        "Pos": "SF",
+        "Ht": "6/8/01",
+        "Wt": "218",
+        "Birth Date": "9/1/99",
+        "Birth": "us US",
+        "Exp": "4",
+        "College": "Duke"
+    },
+    {
+        "No.": "1",
+        "Player": "D'Angelo Russell",
+        "Pos": "PG",
+        "Ht": "6/3/01",
+        "Wt": "193",
+        "Birth Date": "2/23/96",
+        "Birth": "us US",
+        "Exp": "8",
+        "College": "Ohio State"
+    },
+    {
+        "No.": "2",
+        "Player": "Jarred Vanderbilt",
+        "Pos": "PF",
+        "Ht": "6/8/01",
+        "Wt": "214",
+        "Birth Date": "4/3/99",
+        "Birth": "us US",
+        "Exp": "5",
+        "College": "Kentucky"
+    },
+    {
+        "No.": "7",
+        "Player": "Gabe Vincent",
+        "Pos": "PG",
+        "Ht": "6/3/01",
+        "Wt": "195",
+        "Birth Date": "6/14/96",
+        "Birth": "us US",
+        "Exp": "4",
+        "College": "UC Santa Barbara"
+    },
+    {
+        "No.": "20",
+        "Player": "Dylan Windler",
+        "Pos": "SF",
+        "Ht": "6/6/01",
+        "Wt": "196",
+        "Birth Date": "9/22/96",
+        "Birth": "us US",
+        "Exp": "3",
+        "College": "Belmont"
+    },
+    {
+        "No.": "35",
+        "Player": "Christian Wood",
+        "Pos": "PF",
+        "Ht": "6/8/01",
+        "Wt": "214",
+        "Birth Date": "9/27/95",
+        "Birth": "us US",
+        "Exp": "7",
+        "College": "UNLV"
+    }
+]

@@ -9,7 +9,7 @@ let jsonData;
 // Reading and combining JSON data from three files
 const readJson = async () => {
     const perGameTotals = JSON.parse(await fs.readFile('Per Game Player Total.json', 'utf-8'));
-    const regularSeasonPoints = JSON.parse(await fs.readFile('Regular Season Pointz.json', 'utf-8'));
+    const regularSeasonPoints = JSON.parse(await fs.readFile('Regular Season pointz.json', 'utf-8'));
     const roster = JSON.parse(await fs.readFile('Roster.json', 'utf-8'));
 
     jsonData = {

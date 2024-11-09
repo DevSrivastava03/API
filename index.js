@@ -25,42 +25,31 @@ readJson().then(() => {
     });
 });
 
-// Route to get players below a specified age from the roster
-app.get('/age', (req, res) => {
-    const reqAge = req.query.max;  // Max age from query
-    const selectedPlayers = [];
-
-    jsonData.roster.forEach((player) => {
-        if (player.age && player.age <= reqAge) {  // Check age
-            selectedPlayers.push(player.last_name);  // Add player if age matches
-        }
-    });
-
-    res.send(selectedPlayers);  // Send list of player last names
+// Route to get players by position from the roster
+app.get('/position', (req, res) => {
+    const reqPosition = req.query.pos;  // Position from query parameter
+    const selectedPlayers = jsonData.roster.filter(player => player.Pos === reqPosition);
+    res.send(selectedPlayers.map(player => player.Player));  // Send list of player names
 });
 
-// Route to filter players by minimum points scored in the regular season
-app.get('/minPoints', (req, res) => {
-    const minPoints = req.query.min;  // Min points from query
-    const selectedPlayers = [];
-
-    jsonData.regularSeasonPoints.forEach((player) => {
-        if (player.total_points && player.total_points >= minPoints) {
-            selectedPlayers.push(player.last_name);  // Add player if points match
-        }
+// Route to get players by weight from the roster
+app.get('/weight', (req, res) => {
+    const maxWeight = parseInt(req.query.max, 10);  // Max weight from query parameter
+    const minWeight = parseInt(req.query.min, 10);  // Min weight from query parameter
+    const selectedPlayers = jsonData.roster.filter(player => {
+        const weight = parseInt(player.Wt, 10);
+        return (!isNaN(minWeight) ? weight >= minWeight : true) &&
+               (!isNaN(maxWeight) ? weight <= maxWeight : true);
     });
-
-    res.send(selectedPlayers);  // Send list of player last names
+    res.send(selectedPlayers.map(player => player.Player));  // Send list of player names
 });
 
-// Route to get per-game stats for a specific player
-app.get('/playerStats/:player', (req, res) => {
-    const reqPlayer = req.params.player;
-    const foundPlayer = jsonData.perGameTotals.find(player => player.last_name === reqPlayer);
-
-    if (foundPlayer) {
-        res.send(foundPlayer);  // Send player stats if found
-    } else {
-        res.status(404).send({ error: 'Player not found' });  // Handle not found
-    }
+// Route to get players by experience from the roster
+app.get('/experience', (req, res) => {
+    const minExp = parseInt(req.query.min, 10);  // Min experience from query parameter
+    const selectedPlayers = jsonData.roster.filter(player => {
+        const exp = parseInt(player.Exp, 10);
+        return !isNaN(minExp) && exp >= minExp;
+    });
+    res.send(selectedPlayers.map(player => player.Player));  // Send list of player names
 });
